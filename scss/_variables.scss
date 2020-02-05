@@ -1,0 +1,44 @@
+// Variables
+// --------------------------
+
+$fa-font-path: "../webfonts" !default;
+$fa-font-size-base: 16px !default;
+$fa-font-display: auto !default;
+$fa-css-prefix: fa !default;
+$fa-version: "1" !default;
+$fa-border-color: #eee !default;
+$fa-inverse: #fff !default;
+$fa-li-width: 2em !default;
+$fa-fw-width: (20em / 16);
+$fa-primary-opacity: 1 !default;
+$fa-secondary-opacity: 0.4 !default;
+
+// Convenience function used to set content property
+@function fa-content($fa-var) {
+	@return unquote('"#{ $fa-var }"');
+}
+
+$fa-var-b-hsbc: \e800;
+$fa-var-b-icbc: \e801;
+$fa-var-b-lanacion: \e802;
+$fa-var-b-macro: \e803;
+$fa-var-b-meli: \e804;
+$fa-var-b-nacion: \e805;
+$fa-var-b-naranja: \e806;
+$fa-var-b-pagina12: \e807;
+$fa-var-b-provincia: \e808;
+$fa-var-b-quilmes: \e809;
+$fa-var-b-santander: \e80a;
+$fa-var-b-uala: \e80b;
+$fa-var-caba: \e80c;
+$fa-var-escudo: \e80d;
+$fa-var-ahora12: \e80e;
+$fa-var-b-aerolineas: \e80f;
+$fa-var-b-bbva: \e810;
+$fa-var-b-brubank: \e811;
+$fa-var-b-ciudad: \e812;
+$fa-var-b-clarin: \e813;
+$fa-var-b-flybondi: \e814;
+$fa-var-b-galicia: \e815;
+$fa-var-b-hipotecario: \e816;
+$fa-var-b-techint: \e817;
